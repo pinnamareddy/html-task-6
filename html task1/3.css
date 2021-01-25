@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline:none;
+}
+
+.wrap{
+    position: absolute;
+    top:25%;
+    width :100%;
+    padding:20px;
+}
+.contactform{
+    max-width:550px;
+    margin:0 auto;
+    background:rgb(90, 201, 235);
+    padding:30px;
+    border-radius: 8px;
+    display: flex;
+}
+.input-form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 6% ;
+}
+
+.input-form,.msg{
+    width: 100%;
+}
+
+.input-form .input,.msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border:0;
+    border-bottom: 2px solid black;
+
+}
+.msg textarea{
+    width:190px;
+    height: 150px;
+    border-bottom: 2px solid rgb(60, 149, 223);
+}
+
+.btn{text-align: center;
+    background: blue;
+    padding:5px;
+    border-radius:4px;
+    width:60px;
+}
